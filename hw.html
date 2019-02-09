@@ -2,25 +2,17 @@
 <!DOCTYPE html>
 <html lang ="en-US">
 <head>
-    <style>
-    @font-face
-        {
-            font-family: Futura; 
-            src: url("futura.ttf");
-        }
-        h1
-        {
-            font-family: Futura
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 	<title>Hello</title>
 </head>
     
 <body id="bod" style="background-color: cadetblue">
-    <h1>welcome to my site (wip! haha)</h1>
-    <hr/>
+    <div id="top">
+        <h1>welcome to my site (wip! haha)</h1>
+        <a href="#contact_info">Contact me!</a>
+        <hr/>
+    </div>
     <h2>look at this pretty picture</h2>
-    <img src="landscape.jpg" width="600" height="200" alt="aint load huh" title="nice mountains wow">
     <hr/>
     <h2>a list of things i know</h2>
     <ul>
@@ -28,14 +20,54 @@
     <li>C++</li>
     <li>Python</li>
     </ul>
+    <br/>
+    <hr/>
+    <!--github url link + image-->
+    <div id="githubStuff">
+        <a href="https://github.com/astherath/" target="_blank">
+            <img id="github" src="/pics/mark-github.png" title="Visit my github!">
+        </a>
+        <table id="githubrepo">
+            <caption>Repo</caption>
+            <tr>
+                <th>Project Name</th>
+                <th>Descriptiom</th>
+                <th>Language Used</th>
+            </tr>
+            <tr>
+                <td>PROJECTNAME1</td>
+                <td>PROJECT DESCRIPTION 1</td>
+                <td>PROJECT LANGUAGE USED 1</td>
+            </tr>
+            <tr>
+                <td>PROJECTNAME2</td>
+                <td>PROJECT DESCRIPTION 2</td>
+                <td>PROJECT LANGUAGE USED 2</td>
+            </tr>
+        </table>
+    </div>
+    <br/>
+    <hr/>
+    <!--button for going to my youtube channel-->
+    <br/>
+    <a href="https://www.youtube.com/">
+        <button id="youtube">Visit my channel</button>
+    </a>
     <h3>here's a paragraph</h3>
-    <p title="welcome, huh?" style="font-family: Futura">
+    <p id="p01" title="welcome, huh?" >
         <b/> 
         hi 
         welcome to
         my website
-        
         <b/>
     </p>
+    <p class="special">
+        this is a special paragraph
+    </p>
+    <address id="contact_info">
+        Felipe Arce <br/>
+        1901 Brickell Ave. <br/>
+        (305)-951-7225<br/>
+    </address>
 </body>
 </html>
