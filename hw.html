@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html lang ="en-US">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sources/style.css">
+    <script src="/sources/scripts.js"></script>
 	<title>Hello</title>
 </head>
     
@@ -27,6 +29,7 @@
         <a href="https://github.com/astherath/" target="_blank">
             <img id="github" src="/pics/mark-github.png" title="Visit my github!">
         </a>
+        <button onclick="update()">Update Github</button>
         <table id="githubrepo">
             <caption>Repo</caption>
             <tr>
@@ -35,13 +38,13 @@
                 <th>Language Used</th>
             </tr>
             <tr>
-                <td>PROJECTNAME1</td>
-                <td>PROJECT DESCRIPTION 1</td>
-                <td>PROJECT LANGUAGE USED 1</td>
+                <td class="name"></td>
+                <td class="desc">PROJECT DESCRIPTION 1</td>
+                <td class="lang">PROJECT LANGUAGE USED 1</td>
             </tr>
             <tr>
                 <td>PROJECTNAME2</td>
-                <td>PROJECT DESCRIPTION 2</td>
+                <td class="desc">PROJECT DESCRIPTION 2</td>
                 <td>PROJECT LANGUAGE USED 2</td>
             </tr>
         </table>
