@@ -1,64 +1,9 @@
-@font-face
+#navbar-top
 {
-    font-family: Futura; 
-    src: url("futura.ttf");
-}
-
-#top
-{
-    font-family: Futura;
-    background-color:cornflowerblue; 
-}
-
-h2
-{
-    border: 1px dotted powderblue;
-    padding: 10px;
     
+    font-family: 'Raleway', sans-serif;
 }
-
-#p01
+#nav-name
 {
-    font-family: sans-serif;
-    padding: 1px;
-}
-
-p.special
-{
-    font-family: Futura;
-    padding: 10px;
-    background-image: url(pics/landscape.jpg);
-}
-
-#youtube
-{
-    background-color: crimson;
-    color: floralwhite;
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid blue;
-}
-
-#youtube:hover
-{
-    background-color: firebrick;
-}
-
-#github
-{
-    border: 0;
-    height: 50px;
-    width: 100px;
-}
-
-table, th, td
-{
-    width: 45%;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-td
-{
-    padding: 4px;
-    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
