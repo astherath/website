@@ -1,3 +1,14 @@
+html,
+body,
+header,
+.view {
+    background-image: url('../pics/beach.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    height: 100%;
+}
+
 #navbar-top
 {
     
@@ -6,4 +17,11 @@
 #nav-name
 {
     font-family: 'Open Sans', sans-serif;
+}
+
+h1
+{
+    padding-top: 30vh;
+    color: white;
+    text-align: center;
 }
