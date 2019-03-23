@@ -6,7 +6,7 @@ header,
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
-    height: 100%;
+    height: 98.3%;
 }
 
 #second-container
@@ -27,7 +27,7 @@ header,
 
 #first-head
 {
-    margin-top: 20%;
+    margin-top: 15%;
     color: white;
     text-align: center;
 }
