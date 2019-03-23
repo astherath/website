@@ -1,12 +1,18 @@
 html,
 body,
 header,
-.view {
+#first-container {
     background-image: url('../pics/beach.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-position: center center;
-    height: 100%;
+    background-position: center;
+    height: 100vh;
+}
+
+#second-container
+{
+    background-color: #2B2F30;
+    height: 45vh;
 }
 
 #navbar-top
@@ -19,9 +25,22 @@ header,
     font-family: 'Open Sans', sans-serif;
 }
 
-h1
+#first-head
 {
     padding-top: 30vh;
+    color: white;
+    text-align: center;
+}
+
+#second-head
+{
+    padding-top: 22vh;
+    color: white;
+    text-align: center;
+}
+
+#small-head
+{
     color: white;
     text-align: center;
 }
