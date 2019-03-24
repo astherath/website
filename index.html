@@ -26,6 +26,8 @@
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -58,9 +60,9 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" id="navbar-text">About Me</a></li>
-                <li><a href="#" id="navbar-text">Projects</a></li>
-                <li><a href="#" id="navbar-text">Contact </a></li>
+                <li><a href="#about" id="navbar-text">About Me</a></li>
+                <li><a href="#projects" id="navbar-text">Projects</a></li>
+                <li><a href="#contact" id="navbar-text">Contact </a></li>
               </ul>
             </div>
           </div>
@@ -78,11 +80,13 @@
         
         <!-- About (grey box) -->
         <div class="container-fluid text-center" id="about">
-            <h1 id="second-head">Hi</h1>
+            <h1 id="second-head">About me</h1>
+            <h3 id="second-head">Talk about me. Things i do, what i like, maybe split into three columns to detail hard skills (e.g. HTML/CSS, Java, Go, etc.) and soft skills (e.g. people person, good public speaker, outgoing) and put a bullet system to incorporate them so they feel more like a list</h3>
+
         </div>
 
         <!-- Projects (featurettes) -->
-        <div class="container marketing">
+        <div class="container marketing" id="projects">
         <hr class="featurette-divider">
 
             <!-- First feat. (Java) -->
@@ -104,13 +108,36 @@
 
             <!-- Third feat. (HTML5/CSS/Bootstrap) -->
             <div class="featurette">
-                <img class="featurette-image pull-right" src="pics/html-large.png">
+                <img class="featurette-image pull-right" src="pics/bootstrap-large.svg">
                 <h2 class="featurette-heading"> Last featurette.<span class="muted">Talk about the website</span></h2>
                 <p class="lead">talk about using bootstrap and learning CSS/HTML in the process. Talk about (in the future) hosting the site exclusively on your raspberry pi and then talk about how design is a challenge or something like that.</p>
             </div>
             <hr class="featurette-divider"> 
             
         </div> <!--/container marketing-->
+        
+        <!-- Contact info -->
+        <div class="container" id="contact">    
+                <div class="jumbotron">
+                  <div class="row">
+                      <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
+                          <a href="https://github.com/astherath" target="_blank">
+                              <img src="pics/github_512x512.svg" alt="stack photo" class="img"></a>
+                      </div>
+                      <div class="col-md-8 col-xs-12 col-sm-6 col-lg-8">
+                          <div class="container" style="border-bottom:1px solid black">
+                            <h2>Felipe Arce</h2>
+                          </div>
+                            <hr>
+                          <ul class="container details">
+                            <li><p><span class="glyphicon glyphicon-earphone" style="width:50px;"></span>+1(305)-951-7225</p></li>
+                            <li><p><span class="glyphicon glyphicon-envelope" style="width:50px;"></span>farceriv@gmail.com</p></li>
+                            <li><p><span class="glyphicon glyphicon-map-marker" style="width:50px;"></span>Miami, FL</p></li>
+                          </ul>
+                      </div>
+                  </div>
+                </div>
+        </div>
 
 
     <!-- Bootstrap core JavaScript
