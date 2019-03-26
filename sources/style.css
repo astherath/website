@@ -1,3 +1,7 @@
+#navbar {
+    scroll-behavior: smooth;
+}
+
 #landing-page {
     background-image: url('../pics/beach.jpg'); 
     background-attachment: fixed;
@@ -5,12 +9,6 @@
     background-repeat: no-repeat; 
     background-position: center;
     height: 100vh;
-}
-
-#about
-{
-    background-color: #2B2F30;
-    height: 60vh;
 }
 
 #first-head
@@ -22,12 +20,37 @@
     text-align: center;
 }
 
+/* About me */
+#about
+{
+    color: white;
+    text-align: left;
+    background-color: #2B2F30;
+    height: 60vh;
+}
 #second-head
 {
-    margin-top: 10vh;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 5vh;
     color: white;
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
+    letter-spacing: -.5px;
 }
+#second-text
+{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+#projects-title
+{
+    text-align: center;
+    background: white;
+    margin-top: 0px;
+}
+
 
 #code
 {
