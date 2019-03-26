@@ -31,6 +31,7 @@
 
 #code
 {
+    font-size: 60px;
     font-family: 'Ubuntu Mono', monospace;
 }
 
@@ -41,7 +42,7 @@
 /*    font-family: 'Lato', sans-serif;*/
     text-align: center center;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: normal; /* Keeps the content on a single line */
+    white-space: normal;  /*Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .01em; /* Adjust as needed */
     animation: 
@@ -55,7 +56,6 @@
     background:  rgba(255, 255, 255, .85);
     font-family: 'Raleway', sans-serif;
     position: fixed;
-    top: 0;
     width: 100%;
 }
 #navbar-text
