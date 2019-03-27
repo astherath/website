@@ -56,10 +56,7 @@
 /* Typewriter class effect
 ------------------------------------------- */
 .typewrite{
-    color: black;
-    background: white;
-/*    color: white;*/
-/*    font-family: 'Lato', sans-serif;*/
+    color: white;
     text-align: center center;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: normal;  /*Keeps the content on a single line */
