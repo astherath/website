@@ -254,8 +254,8 @@ html
 
 #read-more
 {
-    position: relative; 
-    bottom: -30px;
+    position: absolute; 
+    bottom: 7vh;
     font-family: 'Didact Gothic', sans-serif;
 
 /*    bottom: 165px; */
