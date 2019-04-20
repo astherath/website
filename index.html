@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/smoothscroll.js"></script> 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="personal website">
     <meta name="author" content="felipe arce">
@@ -62,9 +64,9 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about" id="navbar-text">About Me</a></li>
-                <li><a href="#projects-title" id="navbar-text">Projects</a></li>
-                <li><a href="#contact" id="navbar-text">Contact </a></li>
+                <li><a href="#about" id="navbar-text" class="smoothScroll">About Me</a></li>
+                <li><a href="#projects-title" id="navbar-text" class="smoothScroll">Projects</a></li>
+                <li><a href="#contact" id="navbar-text" class="smoothScroll">Contact </a></li>
               </ul>
             </div>
           </div>
@@ -84,11 +86,21 @@
             
             <div class="center-con" >
                 <h1 id="read-more">Read More</h1>
+                
+                
+                
+                <!-- Arrow animation -->
             <div class="round" style="transform: rotate(90deg)">
+                
                 <div id="cta">
-                    <span class="arrow primera next "></span>
-                    <span class="arrow segunda next "></span>
+                    
+                    
+                    <a href="#about"><span class="arrow primera next "></span></a>
+                    <a href="#about"><span class="arrow segunda next "></span></a>
+                    
+                        
                 </div>
+                    
             </div>
         </div>
         </div>
@@ -96,10 +108,24 @@
         
         
         <!-- About (grey box) -->
-        <div class="container-fluid text-center" id="about">
-            <h1 id="about-me-title" style="color:white; text-align: left">About me</h1>
+        <div class="container-fluid text-center" id="about" style="color:white">
+            <h1 id="about-me-title">About me</h1>
+            <div>
+                    <div class="row align-items-start">
+                        <div class="col-md-4">Skills and Tools</div>
+                        <div class="col-md-4"><ul><li>Java</li></ul></div>
+                    </div>
+            <div class="row align-items-center">
+                <div class="col-md-4">Other hobbies</div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col-md-4" style="padding: 80px">Personal Interests</div>
+            </div>
+                </div>
+            </div>
 
-        </div>
+            
+       
         
         <!-- Projects (title) -->
         <h1 class="jumbotron" id="projects-title" style="background-color: white; text-align: center">Projects</h1>

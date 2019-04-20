@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 
 #landing-page {
     background-image: url('../pics/beach.jpg'); 
