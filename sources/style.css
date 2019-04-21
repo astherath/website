@@ -4,7 +4,7 @@ html {
 
 
 #landing-page {
-    background-image: url('../pics/beach.jpg'); 
+    background-image: url('../pics/good_set.jpg'); 
     background-attachment: fixed;
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -200,8 +200,8 @@ html
 
 
 .round {
-    position: absolute;
-    bottom: 1vh;
+    position: relative;
+    bottom: -9vh;
     border: 2px solid #fff;
     width: 40px;
     height: 40px;
