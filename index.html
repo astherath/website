@@ -60,7 +60,6 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about" id="navbar-text" class="smoothScroll">About Me</a></li>
                 <li><a href="#projects-title" id="navbar-text" class="smoothScroll">Projects</a></li>
                 <li><a href="#contact" id="navbar-text" class="smoothScroll">Contact </a></li>
               </ul>
@@ -86,14 +85,14 @@
 
 
                 <!-- Arrow animation -->
-                <a href="#about">
+                <a href="#projects-title">
             <div class="round" style="transform: rotate(90deg)">
 
                 <div id="cta">
 
 
-                    <a href="#about"><span class="arrow primera next "></span></a>
-                    <a href="#about"><span class="arrow segunda next "></span></a>
+                    <a href="#projects-title"><span class="arrow primera next "></span></a>
+                    <a href="#projects-title"><span class="arrow segunda next "></span></a>
 
 
                 </div>
@@ -106,21 +105,13 @@
 
 
         <!-- About (grey box) -->
+<!--
         <div class="container-fluid text-center" id="about" style="color:white">
             <h1 id="about-me-title">About me</h1>
-            <div>
-                    <div class="row align-items-start">
-                        <div class="col-md-4">Skills and Tools</div>
-                        <div class="col-md-4"><ul><li>Java</li></ul></div>
-                    </div>
-            <div class="row align-items-center">
-                <div class="col-md-4">Other hobbies</div>
+            <p1> </p1>
+            
             </div>
-            <div class="row align-items-end">
-                <div class="col-md-4" style="padding: 80px">Personal Interests</div>
-            </div>
-                </div>
-            </div>
+-->
 
 
 
@@ -134,26 +125,30 @@
 
             <!-- First feat. (Java) -->
             <div class="featurette">
+                <a href="https://github.com/astherath/mazes">
                 <img class="featurette-image pull-right" src="pics/java-large.svg">
-                <h2 class="featurette-heading"> First featurette.
-                    <span class="muted">Talk about java project</span></h2>
-                <p class="lead">talk about pathfinding algos used and dijkstra's algo or something. Maybe mention in a subheading the java libraries you used and other stuff. Make the image a link to that github repo</p>
+                    </a>
+                <h2 class="featurette-heading">Maze Pathfinder</h2>
+                <p class="lead">A program that finds a path from entry to exit around an image of a maze. Simulates the path taken by making random decisions at each fork in the maze, all shown in an outputted image that visually displays the path taken and the decisions made.</p>
             </div>
             <hr class="featurette-divider">
 
             <!-- Second feat. (Golang) -->
             <div class="featurette">
-                <img class="featurette-image pull-left" src="pics/gopher-large.svg">
-                <h2 class="featurette-heading"> Second featurette.<span class="muted">Talk about the go CLI</span></h2>
-                <p class="lead">talk about using go and how good the structure is, mention the API you used as well as some of the public packages you used for the thing. Mention utilities and the executable CLI it finished as.</p>
+                <a href="https://github.com/astherath/nexus">
+                <img class="featurette-image pull-left" src="pics/gopher-large.svg"></a>
+                <h2 class="featurette-heading">E-sports Command Line Interface</h2>
+                <p class="lead">Using a public API, fetches and displays info from upcoming matches in different regions of a major e-sport. All from the command line, all made with Go. Uses the extensive Cobra CLI framework, and is easily deployed with a simple <code style="color: black; background: #F6F8FA">go get</code> command.</p>
             </div>
             <hr class="featurette-divider">
 
             <!-- Third feat. (HTML5/CSS/Bootstrap) -->
             <div class="featurette">
+                <a href="https://github.com/astherath/website">
                 <img class="featurette-image pull-right" src="pics/bootstrap-large.svg">
-                <h2 class="featurette-heading"> Last featurette.<span class="muted">Talk about the website</span></h2>
-                <p class="lead">talk about using bootstrap and learning CSS/HTML in the process. Talk about (in the future) hosting the site exclusively on your raspberry pi and then talk about how design is a challenge or something like that.</p>
+                </a>
+                <h2 class="featurette-heading">Personal Website</h2>
+                <p class="lead">First full-stack web job. Used the Bootstrap framework for most of the dirty work. Hosted in a private server run entirely on my Raspberry Pi (apache2).</p>
             </div>
             <hr class="featurette-divider">
 
